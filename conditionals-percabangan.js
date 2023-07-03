@@ -15,11 +15,16 @@
 
 
 // masukan score dengan nilai number
-var score
+var score = 90
 // Memberikan feedback berdasarkan rentang skor
-if (score ) {
-  } else if (score ) {
-  } else if (score ) {
-  } else if (score ) {
-  }else {
+if (score >= 90 ) {
+  console.log("A. Pekerjaan yang bagus!")
+  } else if (score >= 80) {
+    console.log("B. Tidak buruk!")
+  } else if (score >= 70) {
+    console.log("C. Perlu meningkatkan lagi!")
+  } else if (score >= 60 ) {
+    console.log("D. Perlu lebih banyak belajar!")
+  } else {
+    console.log("Mati aja")
 }
