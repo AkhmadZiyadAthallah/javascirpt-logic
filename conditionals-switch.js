@@ -3,11 +3,7 @@
 
 
 // Meminta pengguna untuk memasukkan angka bulan
-var monthNumber 
-
-
-
-
+var monthNumber = 12
 var monthName;
 
 // Mengkonversi angka bulan menjadi nama bulan
@@ -15,10 +11,44 @@ var monthName;
 // bernilai sama dengan 1 maka isi monthName sama dengan = JANUARI 
 
 switch (monthNumber) {
-    default:
-      monthName = "Bulan yang dimasukkan tidak valid";
-      break;
-  }
+  case 1:
+    monthName = "Januari";
+    break;
+  case 2:
+    monthName = "Februari";
+    break;
+  case 3:
+    monthName = "Maret";
+    break;
+  case 4:
+    monthName = "April";
+    break;
+  case 5:
+    monthName = "Mei";
+    break;
+  case 6:
+    monthName = "juni";
+    break;
+  case 7:
+    monthName = "juli";
+  case 8:
+    monthName = "Agustus"
+    break;
+  case 9:
+    monthName = "September"
+    break;
+  case 10:
+    monthName = "Oktober"
+    break;
+  case 11:
+    monthName = "November"
+    break;
+  case 12:
+    monthName = "Desember"
+    break;
+default:
+  monthName = "Tidak ada bulan yang >12"
+}
 
 
 console.log("Nama bulan: " + monthName);
